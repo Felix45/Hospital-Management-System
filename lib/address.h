@@ -10,6 +10,10 @@ class Address {
     string post_office;
 
   public:
+    Address() {
+
+    }
+
     Address(string city, string nation, string box_no, string code) {
       city = city;
       country = nation;
